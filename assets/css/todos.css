@@ -1,0 +1,114 @@
+body {
+  background: linear-gradient(to right, #42c9db 0%, #f5faaa 100%);
+  margin: 0;
+}
+
+h1 {
+  float: left;
+  margin: .6rem auto .58rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+input[type=text] {
+  width: inherit;
+  height: 3rem;
+  font-size: 1.4rem;
+  background-color: #ebeff2;
+  color: #636363;
+  box-sizing: border-box;
+  border-style: none;
+  padding-left: 1rem;
+  display: table-cell;
+}
+
+.container {
+  width: 18rem;
+  height: 25rem;
+  margin: 6.5rem auto auto auto;
+  display: block;
+  font-family: Lato;
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+}
+
+.listitem {
+  width: inherit;
+  height: 2.5rem;
+  font-size: 1.167rem;
+  background-color: white;
+  color: #636363;
+  box-sizing: border-box;
+  list-style: none;
+  display: inline-block;
+}
+
+.listtext {
+  padding-top: .55rem;
+  margin-left: 1rem;
+}
+
+.delete {
+  background: #c20808;
+  color: white;
+  float: left;
+  width: 0;
+  height: 2.5rem;
+  text-align: center;
+  outline: none;
+  border: none;
+  margin-right: 1rem;
+  display: inline-block;
+  opacity: 0;
+  transition: .2s linear;
+}
+
+.listitem i {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
+.listitem:hover .delete {
+  width: 2.5rem;
+  opacity: 100%;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  color: #808080;
+}
+
+#list {
+  padding: 0;
+  margin: 0;
+}
+
+#header {
+  width: 100%;
+  height: 3rem;
+  background-color: #4d8bc9;
+  color: white;
+}
+
+#plus {
+  float: right;
+  padding-top: .2rem;
+  margin: 1rem 1rem .85rem auto;
+}
+
+*:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #949494;
+}
+
+#input {
+  width: inherit;
+}
+
+#newItem {
+  display: none;
+}
